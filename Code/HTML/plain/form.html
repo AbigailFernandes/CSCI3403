@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Intro</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Basics</a>
+      </li>
+      <li>
+        <a href="#">Form</a>
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <h1> HTML Forms </h1>
+    <p>Web forms are one of the main points of interaction between a user and a web site or application. Forms allow users to enter data, which is generally sent to a web server for processing and storage, or used on the client-side to immediately update
+    the interface in some way.</p>
+  </div>
+  <div>
+    <form>
+      <div>
+        <label for="email">Email address:</label>
+        <input type="email" placeholder="Enter email" id="email" required>
+      </div>
+      <div>
+        <label for="pwd">Password:</label>
+        <input type="password" placeholder="Enter password" id="pwd" required>
+      </div>
+      <div>
+        <label for="year">Year:</label>
+        <select name="year" id="year">
+          <option value="freshman">Freshman</option>
+          <option value="sophomore">Sophomore</option>
+          <option value="junior">Junior</option>
+          <option value="senior">Senior</option>
+        </select>
+      </div>
+      <div>
+        <label for="pwd">Gender:</label>
+        <div>
+          <div>
+            <label>
+              <input type="radio" name="optradio">Male
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="radio" name="optradio">Female</label>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="optradio">Other
+              </label>
+            </div>
+          </div>
+        </div>
+        <div>
+          <label>
+            <input type="checkbox"> Remember me
+          </label>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+
+  </html>
